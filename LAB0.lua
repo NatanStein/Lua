@@ -1,0 +1,11 @@
+print("Digite o valor do angulo em radianos :")
+r = io.read("*n")
+g = r*(57.29578)
+gl = math.floor(g)
+m = (g - gl)
+ml = (m * 60)
+mn = math.floor(ml)
+s = (ml - mn)
+sl = (s*60)
+io.write(gl, ":",mn,":", sl)
+
